@@ -1,4 +1,39 @@
 html {
   height: 100%;
   width: 100%;
+  background: black;
+  color: white;
+}
+
+h1 {
+  color: green;
+}
+
+div {
+
+}
+
+.navbar {
+  background-color: #fcfcfd;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: blue;
 }
